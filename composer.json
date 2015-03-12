@@ -1,0 +1,23 @@
+{
+    "name": "saaiful/jpval",
+    "description": "Jquery and Laravel Server Side Validation.",
+    "license": "MIT",
+    "keywords": ["Validation","Jquery Validation","Laravel Validation"],
+    "authors": [
+        {
+            "name": "Saiful Islam",
+            "email": "me@saiful.im"
+        }
+    ],
+    "require": {
+        
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Saaiful\\Jpval\\": "src/"
+        }
+    }
+}
