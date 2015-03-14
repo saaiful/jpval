@@ -16,6 +16,7 @@ class JpvalServiceProvider extends ServiceProvider {
 		$this->publishes([
 		 	 __DIR__.'/../../config/config.php' => config_path('jpval.php'),
 		]);
+        $this->loadViewsFrom(__DIR__.'/../../views/', 'jpval');
 	}
 
 
